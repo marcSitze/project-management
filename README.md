@@ -1,13 +1,13 @@
 # 🚀 Project Management App
 
-A modern **project & task management web application** built with cutting-edge frontend technologies.  
+A modern **project & task management web application** built with cutting-edge frontend technologies.
 Designed to help teams collaborate, track progress, and manage workflows seamlessly.
 
 ---
 
 ## ✨ Features
 
-- 📋 **Kanban Board** – Drag & drop tasks between columns (Backlog, In Progress, Done).
+- 📋 **Project management Board** – Drag & drop tasks between columns (Todo, In Progress, Done).
 - ⏱ **Task Timers** – Start, pause, and track time spent on each task.
 - 📁 **Project Organization** – Group tasks under projects with metadata.
 - 🔍 **Search & Filters** – Quickly find tasks by keyword or status.
@@ -34,10 +34,8 @@ Designed to help teams collaborate, track progress, and manage workflows seamles
 ```bash
 src/
 ├── components/       # Reusable UI components
-├── features/         # Redux slices & feature logic
-│   ├── tasks/        # Task-related state & components
-│   └── projects/     # Project-related state & components
 ├── pages/            # App pages (Dashboard, Project view, etc.)
+├── lib/              # redux slices business logic
 ├── hooks/            # Custom React hooks
 ├── utils/            # Helper functions
 ├── App.tsx           # Root component
