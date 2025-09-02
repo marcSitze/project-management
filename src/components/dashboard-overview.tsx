@@ -7,7 +7,7 @@ import { Badge } from "@/components/ui/badge"
 import { Clock, CheckCircle, Circle, Users } from "lucide-react"
 import { useAppSelector } from "@/lib/hooks"
 import { TASK_STATUS } from "@/constants"
-import { formatTime } from "@/utils/utils"
+import { formatTime } from "../utils/utils"
 
 export function DashboardOverview() {
   const projects = useAppSelector((state) => state.projects.projects)

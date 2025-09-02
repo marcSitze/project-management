@@ -84,7 +84,7 @@ export function TaskSearch() {
               <span className="text-sm font-medium">Filters:</span>
             </div>
 
-            <Select value={statusFilter} onValueChange={(value) => setStatusFilter(value as TaskStatus | "All")}>
+            <Select value={statusFilter} onValueChange={(value: string) => setStatusFilter(value as TaskStatus | "All")}>
               <SelectTrigger className="w-40">
                 <SelectValue placeholder="Status" />
               </SelectTrigger>

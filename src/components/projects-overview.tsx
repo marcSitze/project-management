@@ -134,10 +134,10 @@ export function ProjectsOverview() {
                     <SelectValue />
                   </SelectTrigger>
                   <SelectContent>
-                    <SelectItem value="all">All Status</SelectItem>
-                    <SelectItem value="Todo">Todo</SelectItem>
-                    <SelectItem value="In Progress">In Progress</SelectItem>
-                    <SelectItem value="Done">Done</SelectItem>
+                    <SelectItem value={TASK_STATUS.All}>All Status</SelectItem>
+                    <SelectItem value={TASK_STATUS.TODO}>Todo</SelectItem>
+                    <SelectItem value={TASK_STATUS.IN_PROGRESS}>In Progress</SelectItem>
+                    <SelectItem value={TASK_STATUS.Done}>Done</SelectItem>
                   </SelectContent>
                 </Select>
 
