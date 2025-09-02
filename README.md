@@ -48,16 +48,17 @@ src/
 Clone the repository and install dependencies:
 
 ```bash
-git clone https://github.com/your-username/project-management-app.git
-cd project-management-app
+git clone https://github.com/marcSitze/project-management.git
+cd project-management
 
 # Install dependencies
 npm install
-# or
-yarn install
-# or
-pnpm install
-
+# Run the app in dev mode
+npm run dev
+# Build the app
+npm run build
+# Serve build app
+npm run preview
 ```
 
 <img width="1764" height="1267" alt="image" src="https://github.com/user-attachments/assets/f2d372ea-febe-4fce-a85f-466c73bf9daa" />
