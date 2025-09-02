@@ -41,6 +41,24 @@ src/
 ├── App.tsx           # Root component
 └── main.tsx          # Entry point
 
+```
+
+## ⚙️ Installation & Setup
+
+Clone the repository and install dependencies:
+
+```bash
+git clone https://github.com/your-username/project-management-app.git
+cd project-management-app
+
+# Install dependencies
+npm install
+# or
+yarn install
+# or
+pnpm install
+
+```
 
 <img width="1764" height="1267" alt="image" src="https://github.com/user-attachments/assets/f2d372ea-febe-4fce-a85f-466c73bf9daa" />
 
