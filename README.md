@@ -41,3 +41,6 @@ src/
 ├── App.tsx           # Root component
 └── main.tsx          # Entry point
 
+
+<img width="1764" height="1267" alt="image" src="https://github.com/user-attachments/assets/f2d372ea-febe-4fce-a85f-466c73bf9daa" />
+
