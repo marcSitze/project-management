@@ -23,7 +23,7 @@ import { deleteTasksByProject } from "@/lib/tasksSlice"
 import { ProjectForm } from "./project-form"
 import { KanbanBoard } from "./kanban-board"
 import { TASK_STATUS } from "@/constants"
-import { formatTime, getStatusColor } from "@/utils/utils"
+import { formatTime, getStatusColor } from "../utils/utils"
 
 interface ProjectCardProps {
   project: Project

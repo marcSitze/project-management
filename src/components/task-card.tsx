@@ -19,7 +19,7 @@ import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@
 import { TASK_STATUS, TaskStatus } from "@/constants"
 import { useAppDispatch } from "@/lib/hooks"
 import { deleteTask, taskPause, taskStart, updateTask, type Task } from "@/lib/tasksSlice"
-import { formatTime, getStatusColor } from "@/utils/utils"
+import { formatTime, getStatusColor } from "../utils/utils"
 import { Clock, Edit, MoreHorizontal, Pause, Play, Trash2 } from "lucide-react"
 import { useState } from "react"
 import { TaskForm } from "./task-form"

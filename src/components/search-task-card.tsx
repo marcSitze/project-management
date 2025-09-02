@@ -22,7 +22,7 @@ import { useAppDispatch, useAppSelector } from "@/lib/hooks"
 import { deleteTask, taskPause, taskStart, updateTask, type Task } from "@/lib/tasksSlice"
 import { TaskForm } from "./task-form"
 import { TASK_STATUS, TaskStatus } from "@/constants"
-import { formatTime, getStatusColor } from "@/utils/utils"
+import { formatTime, getStatusColor } from "../utils/utils"
 
 interface SearchTaskCardProps {
   task: Task
