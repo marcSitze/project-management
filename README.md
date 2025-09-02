@@ -1,12 +1,45 @@
-# React + Vite
+# 🚀 Project Management App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern **project & task management web application** built with cutting-edge frontend technologies.  
+Designed to help teams collaborate, track progress, and manage workflows seamlessly.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ Features
 
-## Expanding the ESLint configuration
+- 📋 **Kanban Board** – Drag & drop tasks between columns (Backlog, In Progress, Done).
+- ⏱ **Task Timers** – Start, pause, and track time spent on each task.
+- 📁 **Project Organization** – Group tasks under projects with metadata.
+- 🔍 **Search & Filters** – Quickly find tasks by keyword or status.
+- 🎨 **Beautiful UI** – Powered by [TailwindCSS](https://tailwindcss.com/) + [shadcn/ui](https://ui.shadcn.com/).
+- ⚡ **Fast & Scalable** – Bootstrapped with [Vite](https://vitejs.dev/).
+- 🛠 **Type-Safe** – Written in [TypeScript](https://www.typescriptlang.org/).
+- 📦 **State Management** – Centralized logic via [Redux Toolkit](https://redux-toolkit.js.org/).
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🖥️ Tech Stack
+
+- **Frontend Framework:** [React 18](https://react.dev/)
+- **Bundler:** [Vite](https://vitejs.dev/)
+- **Styling:** [TailwindCSS](https://tailwindcss.com/)
+- **UI Components:** [shadcn/ui](https://ui.shadcn.com/) (Radix-based)
+- **State Management:** [Redux Toolkit](https://redux-toolkit.js.org/)
+- **Language:** [TypeScript](https://www.typescriptlang.org/)
+
+---
+
+## 📂 Project Structure
+
+```bash
+src/
+├── components/       # Reusable UI components
+├── features/         # Redux slices & feature logic
+│   ├── tasks/        # Task-related state & components
+│   └── projects/     # Project-related state & components
+├── pages/            # App pages (Dashboard, Project view, etc.)
+├── hooks/            # Custom React hooks
+├── utils/            # Helper functions
+├── App.tsx           # Root component
+└── main.tsx          # Entry point
+
