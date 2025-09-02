@@ -61,5 +61,14 @@ npm run build
 npm run preview
 ```
 
+APP Link: https://project-management-7hlebt8vm-marcsitzes-projects.vercel.app/
+
 <img width="1764" height="1267" alt="image" src="https://github.com/user-attachments/assets/f2d372ea-febe-4fce-a85f-466c73bf9daa" />
 
+## Side Notes
+# Responses to questions
+
+- completion time => 30h, it was quite a nice challenge, what I really liked about the project was the visualisation of the data with the charts on the dashboard adding it was a nice experience
+- Even with more time I'm not sure will do things differently
+- I will say the dashboard
+- The time tracking
